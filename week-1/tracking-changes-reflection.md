@@ -27,3 +27,5 @@ A pull request is a method of submitting changes to a coding project hosted on a
 
 ###Preference of pull requests
 Pull requests are preferred when working with teams because it alerts teammates of changes that have been recommended and can then be reviewed before being fully accepted. An extra set of eyes is crucial in these pushes in order to catch potential issues and make any necessary improvements. 
+
+[This is a version created for a second push]

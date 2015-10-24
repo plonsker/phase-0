@@ -1,61 +1,31 @@
-1.1 Think About Time reflection
+##Tracking Changes Reflection
 
-I am going to keep this short and sweet, as I have found that keeping things so has been the key to my past success.
+###Making Developers lives easier
 
-The productivity idea I most identified with was the concept of getting insanely micro (seen here (Links to an external site.)). My biggest weakness in the past has been to plow through everything in front of me with brute force. This would often lead to me getting stressed out and accomplishing nothing. What works for me now is to take the time to work on smaller chunks of an assignment in a given amount of time. This is where the concept of Time Boxing comes in: creating a set amount of time for a specific task. While it is good to take the time to give each component of assignment time and attention, one must realistically set a deadline for each of them. Keeping a steady pace while maintaining a general inquisitiveness about the subject will keep me in the groove. After all, these are not chores I must get done, but challenges I get to accomplish.
+Tracking and adding changes makes developers lives easier by allowing them to pinpoint exactly what and how certain cogs of a large project have been changed. A commit is a change in code that is trackable and identifiable. If a bug suddenly begins impacting one's code, one could look back at recent commits to find the root cause of the issue. 
 
-1.2 The Command Line Reflection
+###Best practices for commit messages
+The best practices for commit messages come down to being clear and concise as possible. It is recommended that a detailed commit message be written within the modified doc. At the top of the doc, write the title of your commit message giving a general concept of the change. Below, go into further detail of what was changed, why it was changed, and what resources were used ('changing url', 'deleting unnecessary text', etc.)
 
-In today's lesson, I was presented with the essential commands for operating my computer through the terminal (Linux commands in Git Bash in my environment). Everything that I would normally do with files via the graphic interface of my Windows machine could be done much quicker with these few commands. Some of it was intuitive while other commands were not as obvious to begin with. The best way to see whether I was making a connection between the commands and what I would see in the usual interface was to directly compare the two. This was especially helpful when moving/renaming files. The command line allowed me to think about the system in its purest, simplest ways. Now that I have done the basic crash course, I will have to repeat it and spend some time reviewing and fooling around with it as much possible.
+###The Head Argument
+The HEAD^ argument is for directing one towards the latest commit file. To go back furthe rin the past to other commit files, one must enter in HEAD~(number) to the respectively committed file (HEAD~3 for the 3rd commit, HEAD~7 for the 7th commit, etc.).
 
-The slightly dangerous thing with these commands is that I now I have the power to do serious harm to my computer if I'm not paying attention. I deleted several files in these exercises because I kept running commands without thinking. Attention to detail is key here!
 
-1.4 Forking and Cloning Reflection
+###Three stages of git change
+The three stages of a git change are tracking changes, making changes, and pushing changes. In tracking changes, a file's specific changes are written out. To make changes, one creates a new (feature) branch within their repository to make those specific changes. To push a change, one must merge changes from the master branch into the feature change then make a pull request via Github. 
 
-Here are some brief instructions for creating a new repository:
+###What are some helpful git commands in committing a change?
+The most basic commands for committing a change are as follows:
+git status - Shows current state of files that have been added, untracked, and staged. Also shows which branch being operated in. 
 
-Enter your Github account and click on the plus sign ('+') located next to the icon of your profile image.
+git commit -m "Commit message" - This is the shorthand method of entering a commit message. You can also type in -v to enter the message directly into the editor. 
 
-Select the 'new repository' option from the drop down menu. You should be then redirected to the repository page.
+git push - pushes the change to a remote branch like Github.
 
-You will be presented with a form for creating a new repository. Make sure the repository is under your username (the space designated for 'owner').
+###Pull request
+A pull request is a method of submitting changes to a coding project hosted on a remote repository host (Github in our case). After a change has been pushed to Github, go view the fork within the repositry on the site and select the branch in question. Below the branch drop-down is a grey icon titled 'Pull Request'. Clicking on this icon will show you which files have been changed. Select the master branch fork as your base fork. Then on the right select the branch that was pushed (not the master) as your head fork. Once you have the correct forks/branches and have added a specific comment, click 'Create Pull Request'. Then click the 'Merge pull request button' to merge the changes. Confirm the merge then select the 'Delete branch' option to clear up the branch you used to commit the change. 
 
-Under 'repository name', enter the name of your new repository.
+###Preference of pull requests
+Pull requests are preferred when working with teams because it alerts teammates of changes that have been recommended and can then be reviewed before being fully accepted. An extra set of eyes is crucial in these pushes in order to catch potential issues and make any necessary improvements. 
 
-Give a description if necessary.
-
-Select the public or private option depending on its use (in our case for collaborative work, we will select 'public').
-
-Choose the appropriate license (in our case, MIT License).
-
-Click the 'create repository' button to save all information and enter your new repository.
-
-To fork an existing repository:
-
-Open the Github repository you wish to fork.
-
-Click the fork button in the top right-hand corner.
-
-Select your profile as the location where this repository will be forked to from the options presented.
-
-You are now presented with your forked version of the repository.
-
-Forking allows you to work on your own version of the file while leaving the original unaltered. Forking also allows you to keep track of where your version was taken from so it can easily be compared to the original (something that is not possible by simply copying the repository).
-
-To clone a repository to your machine:
-
-Go to the HTTPS clone url field on the right hand of the repository page you wish to clone and copy the url within.
-
-Open your command line.
-
-Navigate to you desired directory using the necessary commands ($ cd [your directory]).
-
-Type on the command line 'git clone' then paste the url you copied from the repository page.
-
-Hit enter. The cloning process will begin.
-
-Once the cloning process has finished, change directory to that cloned repository and list the items in your directory ($ ls) to compare the contents of it with the contents listed on the Github repository page. Make sure everything was cloned!
-
-The struggle I had with Git and Github was initially understanding the difference between the two. Reflecting on the previous challenges was essential to coming to an understanding of Git as the local system and Github as the cloud system. Combined with the challenge outlined in 1.4, I was able to see the importance of forking and cloning for projects. Now I am able to create and work on my own versions of opensource material without impacting the original documents.
-
-.
+[This is a version created for a second push]

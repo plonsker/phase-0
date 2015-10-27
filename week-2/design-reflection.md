@@ -10,7 +10,7 @@
   <h4>October 27, 2015</h4>
 
 
-  <section>
+<section>
   <h4>Six Phases of Web Design</h4>
     <p>
       The six phases of web design are as follows:<br>
@@ -32,14 +32,13 @@
     First, one must come to an understanding of the entity that the website is representing. Some key factors in building this understanding are the purpose of the site, the goals to be accomplished by having a web presence, the site's target audience, and what the site's content will be. All of these components will be be crucial in building the form and function of the site.
 	</p>
 	<p>
-
     <h5>Planning</h5>
     Now that you have reached an understanding of the site's mission, you can use that information you have gathered to begin mapping out the flow and structure of the site. This is where a site map is created, listing all the main components of the site while pinpointing what and where specific content should go. The point of this process is to ensure that the site is laid out in such a way that the user can intuitively navigate it.
     </p>
     <p>
     <h5>Design</h5>
     Once you have created the blueprint of the site, you can begin working on its design. The aesthetics of the design will rely quite a bit on the target audience. Think of a bank's website versus an entertainment website. How should users interact with the site? What would be most aesthetically and functionally pleasing to them?
-
+    <br>
     Drafts of the site should be sent to the client as often as possible for their input. Transparency during this process ensures that goals are being met.
     </p>
     <p>
@@ -72,17 +71,9 @@
 	</p>
 	<p>
 	<h4>Joe's Reflection</h4>
-
 	Perhaps what I found most tedious about this challenge was simply taking the time to reflect! I was so eager just get started on building a site that I thought I could just forge ahead with brute force without reflecting too much on why UX was so important as aesthetics seemed pretty intuitive. However taking the time to think about the importance of the user experience made me appreciate the artistic side of web development.
-	
 	</p>
-
-
 <br><br>
-
-    <img src ="imgs/site-map.png" alt="site map" width ="700" height = "400")>
-
-    
-    
-  </section>
+<img src ="imgs/site-map.png" alt="site map" width ="700" height = "400")>
+</section>
 </main>

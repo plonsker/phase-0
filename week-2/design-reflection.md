@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
   <title>Reflections on Design</title>
   <meta charset="UTF-8">

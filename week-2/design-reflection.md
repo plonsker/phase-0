@@ -76,8 +76,6 @@
 
 
 <br><br>
-
 <img src ="imgs/site-map.png" alt="site map" width ="700" height = "400")>
-
 </section>
 </main>

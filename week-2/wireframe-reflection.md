@@ -7,6 +7,6 @@ Personally, I found wireframing to be surprisingly challenging in a funny way. I
 I revised my wireframe once I realized I was trying to do too much at once on the home page. I realized that the user should be greeted with a simple page and should feel free to navigate to specific sections of the site. The question I kept asking myself was whether the user could see where to access crucial information without much effort. I thought it would be best to layout the most essential links together on top of my professional site. I plan to keep that feature consistent throughout the site as I develop the other pages within it. For the blog, I made a similar feature but shifted everything to the right in a small column, with each potential blog post taking up most of the page. Each blog post is featured as a truncated version of itself so that the user can select which one seemed the most appealing. I also included an archive link for an even more abbreviated view of past blog posts. The beginner's guide to wireframing was particuarly useful in this exercise, although I found myself turning to all kinds of personal blogs to see how people structured their own information. 
 
 
-![Alt text](http://github.com/plonsker/phase-0/week-2/imgs/wireframe-index.png)
+![Alt text](https://github.com/plonsker/phase-0/blob/master/week-2/imgs/wireframe-blog-index.png)
 
-![Alt text](http://github.com/plonsker/phase-0/week-2/imgs/wireframe-blog-index.png)
+![Alt text](https://github.com/plonsker/phase-0/blob/master/week-2/imgs/wireframe-index.png)

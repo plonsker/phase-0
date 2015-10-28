@@ -1,0 +1,12 @@
+2.4 Reflection 
+
+A wireframe is the basic blueprint of a site's content and form. It is essentially the skeleton of a website to be developed, showing where the guts of the site should go. The benefit of wireframing is that it makes it much easier to plan the layout according to how a user should process the information within it. A developer can determine the overall functionality of the site before diving into aesthetic concerns. 
+
+Personally, I found wireframing to be surprisingly challenging in a funny way. In the past when I had tinkered with sites, I had just taken the path of brute force and splashed designs into a doc while refreshing the preview to see how things looked. Rarely did I plan ahead. Wireframing forced me to slow down and think about how the user should experience the site instead of just assuming what I thought would look best (a similar 'aha' moment I had during exercise 2.3 while developing a site map). Considering the user experience has been something discussed several times so far in Phase 0. However, the full realization of its importance did not fully settle in until I was forced to take that moment to pause and reflect. 
+
+I revised my wireframe once I realized I was trying to do too much at once on the home page. I realized that the user should be greeted with a simple page and should feel free to navigate to specific sections of the site. The question I kept asking myself was whether the user could see where to access crucial information without much effort. I thought it would be best to layout the most essential links together on top of my professional site. I plan to keep that feature consistent throughout the site as I develop the other pages within it. For the blog, I made a similar feature but shifted everything to the right in a small column, with each potential blog post taking up most of the page. Each blog post is featured as a truncated version of itself so that the user can select which one seemed the most appealing. I also included an archive link for an even more abbreviated view of past blog posts. The beginner's guide to wireframing was particuarly useful in this exercise, although I found myself turning to all kinds of personal blogs to see how people structured their own information. 
+
+
+![Alt text](http://github.com/plonsker/phase-0/week-2/imgs/wireframe-index.png)
+
+![Alt text](http://github.com/plonsker/phase-0/week-2/imgs/wireframe-blog-index.png)

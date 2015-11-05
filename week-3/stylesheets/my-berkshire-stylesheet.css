@@ -58,3 +58,29 @@ table tr td {
 	color: #000000;
 	background: #000000;
 }
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+-My pairing peer and I recognized the importance of specifying the relative path of the CSS file in the HTML
+file. Just like with the imgs/ directory in last week's exercise, we had to make sure the syntax pointed to the
+correct file. At one point we couldn't get the CSS to define items within the HTML file and realized we had a few syntax errors.
+We went back to our week-3 directory and made sure we were pointing at what the HTML file considered a usable CSS doc.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+-Most of our positioning efforts were focused on the table we had created. We were able to initially position
+everything by setting the margins within the table tag to auto. Then we used padding to make sure everything within
+the table rows had enough space around it and looked a bit more organized. We used similar centering and spacing tricks
+for our other text fields. Surprsingly, this was much more challenging than I had anticipated, and we occasionally had to do
+a bit of research to make sure that the tricks we were applying were sufficient. Looking for line breaks was particuarly bothersome,
+and mostly relied on natural spacing created by headers and other fields. 
+
+What CSS did you use to modify the element style (like size, color, etc.)
+-We mostly stuck to our 'traditional' methods of styling, such as background: color; and font-size; Xpx.
+The few CSS tricks we remembered from our earlier exercises seemed sufficient to get the look and feel we wanted.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+-We added classes and ids to specific tags and fields we wanted to target. We used ids for the small, benign stuff,
+such as capital letters in the header, and classes for broader fields, such as details next to links.
+
+*/

@@ -70,8 +70,8 @@ What tricks did you use to help you with positioning? How hard was it to get the
 -Most of our positioning efforts were focused on the table we had created. We were able to initially position
 everything by setting the margins within the table tag to auto. Then we used padding to make sure everything within
 the table rows had enough space around it and looked a bit more organized. We used similar centering and spacing tricks
-for our other text fields. Surprsingly, this was much more challenging than I had anticipated, and we occasionally had to do
-a bit of research to make sure that the tricks we were applying were sufficient. Looking for line breaks was particuarly bothersome,
+for our other text fields. Surprisingly, this was much more challenging than I had anticipated, and we occasionally had to do
+a bit of research to make sure that the tricks we were applying were sufficient. Looking for line breaks was particularly bothersome,
 and mostly relied on natural spacing created by headers and other fields. 
 
 What CSS did you use to modify the element style (like size, color, etc.)

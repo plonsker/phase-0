@@ -1,0 +1,60 @@
+* {
+	color: #000080;
+	background-color: #ffffff;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+}
+
+#capitol {
+	font-size: 40px;
+}
+
+a {
+	color: #800080;
+}
+
+a:visited {
+	color: #ff0000;
+}
+
+
+.detail {
+	font-size: 10px;
+	color: #000000;
+}
+
+table {
+	margin: auto;
+
+}
+
+.geico {
+	text-align: center;
+	font-size: 10px;
+}
+
+
+
+table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.hr {
+	width: 100%;
+	height: 1px;
+	color: #000000;
+	background: #000000;
+}

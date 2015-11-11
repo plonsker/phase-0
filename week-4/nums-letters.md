@@ -55,13 +55,20 @@ Integer division however rounds down to the nearest integer:
 
 As discussed earlier in this reflection, integer division results in only the whole integers you could possibly walk away with. A lot of things just do not make sense to divide them any further.
 
-What are strings? Why and when would you use them?
+###What are strings? Why and when would you use them?
 A string is an object containing multiple characters surrounded by quotes. For example, "hello" or "hello world" are strings. Even "5" is a string in this context. In my experience, the basic use for strings is for printing entire words or sequences of characters (puts "hello world") or for assigning values to variables (greeting = "hello word"). 
 
-What are local variables? Why and when would you use them?
+###What are local variables? Why and when would you use them?
 Local variables is a variable typically only used within a particular method or block, and, on a slightly higher level, module. Mostly we would use them only within those particular blocks of code. In our third challenge in this exercise, we set up some integer variables and did some basic arithmetic operations them. Those variables had some basic assignments and were only used within the context of those few exercises, hence they were only used 'locally'. If they were to be applied anywhere else or within the logical context of another block, then we would have to change them from local variables. More on that later. 
 
 
-How was this challenge? Did you get a good review of some of the basics?
+###How was this challenge? Did you get a good review of some of the basics?
 This was a solid review. I got to brush up on my basic knowledge and see rspec in action, not to mention check to see if my environment was actually running properly. 
 
+###Links to the challenge solutions
+
+https://github.com/plonsker/phase-0/blob/master/week-4/defining-variables.rb
+
+https://github.com/plonsker/phase-0/blob/master/week-4/simple-string.rb
+
+https://github.com/plonsker/phase-0/blob/master/week-4/basic-math.rb

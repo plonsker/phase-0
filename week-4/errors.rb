@@ -99,7 +99,7 @@
 # 4. Where is the error in the code?
 #=> Line 92
 # 5. Why did the interpreter give you this error?
-# => There is not argument passed to the instance of the method I called. 
+# => There is not an argument passed to the instance of the method I called. 
 
 
 
@@ -177,10 +177,11 @@
 	#The most difficult errors to read for me were the ArgumentErrors.
 #How did you figure out what the issue with the error was?
 	#I have had trouble distinguishing whether arguments needed to supplied or weren't being taken. 
-	#I was able to dinstinguish the difference though by the number of arguments (0 for 1 versus 1 for 0).
+	#I was able to distinguish the difference though by the number of arguments (0 for 1 versus 1 for 0).
 #Were you able to determine why each error message happened based on the code? 
 	#Yes, I was able to hone in on every issue. For most I was able to determine that the code would not
 	#run, but hadn't seen their associated error messages. This backward learning was proven quite effective.
 #When you encounter errors in your future code, what process will you follow to help you debug?
 	#Follow the error messages exactly. Go to the line that is stated as being the source of the error and see
 	#if the context of the code is creating the error on that line or elsewhere. 
+

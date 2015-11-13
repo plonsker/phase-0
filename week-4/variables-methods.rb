@@ -36,7 +36,7 @@ puts "#{num} is a nice number. However, I prefer #{num2} myself. #{num2} is a bi
 
 	-How do you run a ruby program from the command line?
 		If I want to run a previously created ruby file from the command line, I would run ruby [filename].rb
-		within that file's directory. If I want to simply run some ruby cody on the command line, I'd write out
+		within that file's directory. If I want to simply run some ruby code on the command line, I'd write out
 		'irb' followed by the code to be executed. That way I'm emulating a ruby environment on the command line.
 	-How do you run an RSpec file from the command line?
 		First I would write out 'rspec' on the command line followed by the spec filename. 

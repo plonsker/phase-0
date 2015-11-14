@@ -2,15 +2,6 @@
 
 # I worked on this challenge [by myself, with Mason].
 
-def factorial(number)
-  result = 1
-  while number > 0
-    result = result * number
-    number -= 1
-  end
-
-  return result
-end
 
 # Your Solution Below
 #def factorial(number)
@@ -33,6 +24,15 @@ end
 
 # factorial(0)
 
+def factorial(number)
+  result = 1
+  while number > 0
+    result = result * number
+    number -= 1
+  end
+
+  return result
+end
 
 
 

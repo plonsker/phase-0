@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> master
 # Method to create a list
 # input: string of items separated by spaces (example: "carrots apples cereal pizza")
 # steps: 
@@ -101,6 +105,7 @@ p remove_item(list, 'carrots')
 p change_qty(list, "apples", 72)
 puts stringify(list)
 
+<<<<<<< HEAD
 =begin
   
 What did you learn about pseudocode from working on this challenge?
@@ -131,3 +136,8 @@ What concepts were solidified in this challenge, and what concepts are still con
 
 
 =end
+=======
+=======
+ 
+>>>>>>> master
+>>>>>>> master

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Method to create a list
 # input: string of items separated by spaces (example: "carrots apples cereal pizza")
 # steps: 
@@ -84,8 +85,7 @@ end
 # print out hash as a string
 # output: stringified hash
 
-def stringify(list)
-  
+def stringify(list)  
   list.each do |item, qty|
     puts item + " ==> " + qty.to_s
   end
@@ -101,3 +101,6 @@ p remove_item(list, 'carrots')
 p change_qty(list, "apples", 72)
 puts stringify(list)
 
+=======
+ 
+>>>>>>> master

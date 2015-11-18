@@ -68,3 +68,25 @@ pad(my_array, 6, "beets")
 
 
 # 4. Reflection
+
+=begin
+Were you successful in breaking the problem down into small steps?
+  This peer exercise was probably the most successful I have had so far as far as psuedocode goes. Everything seemed to come naturally between my
+  pair and I. 
+
+Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+  Translating from pseudocode to actual code was fairly easy. The main difficulty we had was making sure our non-destructive method was, in fact, being non-destructive.
+  We merely had to make sure that a new array was being specified.
+
+Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+When you refactored, did you find any existing methods in Ruby to clean up your code?
+  The only error we first received with out initial solution was that our non-destructive method was being destructive. We fixed it by specifying a new array in the method, as stated earlier.
+  When we went to refactor, we discovered an entirely new method called 'pad' that would have been the process much shorter. 
+How readable is your solution? Did you and your pair choose descriptive variable names?
+  I believe our solution is straightforward enough for the average beginner to understand the flow. Our variables were descriptive in as much as their names were taken directly
+  from the context of the exercise. However, adding the 'pad' method will require us to rename our intial method. 
+What is the difference between destructive and non-destructive methods in your own words?
+  Destructive methods permanently alter what we input into a method into a brand new version in the output. Non-destructive methods return new versions of our intial inputs that are of their own
+  rather than altering the original. Destructive methods are notated with an exclamation mark. 
+
+=end

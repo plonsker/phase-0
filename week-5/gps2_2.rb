@@ -84,8 +84,7 @@ end
 # print out hash as a string
 # output: stringified hash
 
-def stringify(list)
-  
+def stringify(list)  
   list.each do |item, qty|
     puts item + " ==> " + qty.to_s
   end

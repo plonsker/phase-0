@@ -21,7 +21,9 @@ Back to the drawing board: The method will take an argument, in this case the ar
 	multiple hashes of 4 to 5 elements each.  
 =end
 
-=begin
+
+
+#First Attempt: 
 
 puts "List of students please: "
 list = gets.chomp
@@ -75,6 +77,8 @@ To refractor, I am going to move multiple lines in the group method to one
 	
 
 =end
+
+#Refactored Solution
 
 
 def string_to_hash(student_list)
@@ -141,12 +145,13 @@ Was your approach for automating this task a good solution? What could have made
 	method I defined would make it much more manageable.
 
 What data structure did you decide to store the accountability groups in and why?
-	I stored the structure into an array of arrays, as this created the most basic and accesible list of groups.
+	I stored the structure into an array of arrays, as this created the most basic and accessible list of groups.
 
 What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
 	I learned that changing my variable and method names to something slightly more legible let me rethink the inherent logic of the system I had created. There were also a few methods I had
 	learned that all had to do with hashes and arrays. I learned to randomly mix results with the shuffle method, pull out only the keys from a hash, and slice an array into smaller arrays while
-	specifying the length of each	
+	specifying the length of each.
+
 
 =end
 

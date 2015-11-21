@@ -63,7 +63,7 @@ end
 # take care of that. Also, we need to raise an argument error
 
 
-# 1. Initial Solution
+# Initial Solution
 
 #This solution passed all tests and worked when I called a new instance with the roll method. I'd like to collapse a couple of lines though. 
 
@@ -97,7 +97,7 @@ end
 
 
 
-# 2. Refactored Solution
+# Refactored Solution
 
 #Only thing I could think to get rid of was the new variable I had created. 
 class Die
@@ -133,11 +133,8 @@ puts die.roll
 
 =begin
 	
-
-	
-end
 What is an ArgumentError and why would you use one?
-	An argument error is an error that is usally raised when an incorrect number of arguments is supplied to a method. 
+	An argument error is an error that is usually raised when an incorrect number of arguments is supplied to a method. 
 	We can intentionally include argument errors to be raised in a program in order to clearly state to a user what the issue is. 
 	We can even have the ArgumentError state exactly what steps need to be taken to rectify the situation.
 
@@ -157,7 +154,8 @@ Why would you use a Ruby class?
 What is the difference between a local variable and an instance variable ?Where can an instance variable be used?
 
 	A class variable belongs to an entire class while an instance variable belongs to only an instance of that method. Class variables 
-	are distinguished with two @ symbols while an instance has only one. Class variables can be defined ince within a class,
+	are distinguished with two @ symbols while an instance has only one. Class variables can be defined once within a class,
 	while instance variables need to be defined within methods of the class.
 
 =end
+

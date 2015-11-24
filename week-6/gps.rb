@@ -1,8 +1,8 @@
 # Your Names
-# 1)
-# 2)
+# 1) Joe Plonsker
+# 2) Alex Mitzman
 
-# We spent [#] hours on this challenge.
+# We spent 1.25 hours on this challenge.
 
 # 
 

@@ -379,6 +379,9 @@ end
 # Reflection
 =begin
 How do instance variables and methods represent the characteristics and behaviors (actions) of a real-world object?
+  Instance variables and methods are like the logical steps within real-world systems. If I were to have a real-world system for
+  processing specifc items, we would need different steps or responses depending on the items we came across. Imagine going through your mail
+  and deciding what needs to be thrown out and what should be opened. Such a process could be replicated in Ruby. 
 	
 When should you use instance variables? What do they do for you?
 	Instance variables should be used for when methods within a class need to share information between each other. 

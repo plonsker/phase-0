@@ -1,8 +1,8 @@
 # Build a simple guessing game
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge by myself
+# I spent 2.5 hours on this challenge.
 
 # Pseudocode
 
@@ -11,7 +11,7 @@
 # Steps: The class GuessingGame will be intialized with 'answer', which will be an integer. 
 # We will then have an instance method called guess which will take a guessed intger as an input
 # that will return either high, low, or correct depending on how that integer compares to the answer.
-# 
+ 
 
 
 # Initial Solution

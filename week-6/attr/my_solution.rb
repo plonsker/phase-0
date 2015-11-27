@@ -6,9 +6,10 @@
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: Name
+# Output: Greetings and a name
+# Steps: We will have a new class that will have an initialize method where name is established.
+# Then we will have a class 'Greetings' that returns a greetings and the new name. 
 
 
 class NameData
@@ -20,13 +21,14 @@ end
 
 class Greetings
     def hello
+    	@new_name = NameData.new
         puts "Hello, student #{@name}!"
     end
 
 end
 
-p name = NameData.new('Joe')
-p greet = Greetings.new
+name = NameData.new('Joe')
+greet = Greetings.new
 p greet.hello
 
 

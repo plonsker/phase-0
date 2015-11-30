@@ -108,6 +108,7 @@
 #I will likely start over, discarding the hash and column numbers.
 
 #Fresh start. Stopped using #map and my @column variable and started thinking in terms of arrays/rows.
+<<<<<<< HEAD
 class BingoBoard
 
   def initialize(board)
@@ -157,6 +158,57 @@ class BingoBoard
     p @bingo_board[4]
   end
 end
+=======
+# class BingoBoard
+
+#   def initialize(board)
+#     @bingo_board = board
+#     @bingo_letters= {'B' => 0, 'I' => 1, 'N' => 2, 'G' => 3, 'O' => 4}
+#     @letter = @bingo_letters.keys.sample
+#     @called_number = rand(1..99)
+#   end 
+  
+  
+#   def bingo_ball_call
+#     @number = @called_number
+#     puts "#{@letter}#{@number}!"
+#     puts @column
+#   end
+
+#   def board_call
+#    case #Creates a case that interacts with each array/row at a specific index.
+#    when "B"
+#         @bingo_board.each do |row|
+#           row[0] = "x" if row[0] == @number
+#         end
+#       when "I"
+#         @bingo_board.each do |row|
+#           row[1] = "x" if row[1] == @number
+#         end
+#       when "N"
+#         @bingo_board.each do |row|
+#           row[2] = "x" if row[2] == @number
+#         end
+#       when "G"
+#         @bingo_board.each do |row|
+#           row[3] = "x" if row[3] == @number
+#         end
+#       when "O"
+#         @bingo_board.each do |row|
+#           row[4] = "x" if row[4] == @number
+#         end
+#     end
+#   end
+  
+#   def print_board
+#     p @bingo_board[0]
+#     p @bingo_board[1]
+#     p @bingo_board[2]
+#     p @bingo_board[3]
+#     p @bingo_board[4]
+#   end
+# end
+>>>>>>> master
 
 #Refactored Solution
 
@@ -166,7 +218,11 @@ class BingoBoard
     @bingo_board = board
     @bingo_letters= ['B', 'I', 'N', 'G', 'O'] #changed to an array. hash redundant
     @letter = @bingo_letters.sample
+<<<<<<< HEAD
     @called_number = rand(1..99)
+=======
+    @called_number = rand(1..100) #changed to 100 as stated in instructions
+>>>>>>> master
   end 
   
   
@@ -201,7 +257,11 @@ class BingoBoard
     end
   end
   
+<<<<<<< HEAD
   def print_board
+=======
+  def new_board
+>>>>>>> master
     p @bingo_board[0]
     p @bingo_board[1]
     p @bingo_board[2]
@@ -220,12 +280,20 @@ board = [[47, 44, 71, 8, 88],
 new_game = BingoBoard.new(board)
 puts new_game.bingo_ball_call
 new_game.board_call
+<<<<<<< HEAD
 new_game.print_board
+=======
+new_game.new_board
+>>>>>>> master
 
 #Relfection
 
 # How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+<<<<<<< HEAD
   # I thought the pseudocode setup deceived me into thinking my solution would come a lot sooner. I think I would have benefitted from
+=======
+  # I thought the pseudocode setup deceived me into thinking my solution would come a lot sooner. I think I would have benefited from
+>>>>>>> master
   # writing out my thought process outside of the outline given in the reflection doc. 
 
 # What are the benefits of using a class for this challenge?
@@ -238,12 +306,20 @@ new_game.print_board
   #that element your trying get is.
 
 # What methods did you use to access and modify the array?
+<<<<<<< HEAD
   #In my final solution, i went with a case and a block for each possibile outcome. I originally tried to use #map to access and modify the array,
+=======
+  #In my final solution, i went with a case and a block for each possible outcome. I originally tried to use #map to access and modify the array,
+>>>>>>> master
   #but kept getting errors due mixing up integers and strings so much. It came to the point where the method of accessing elements I had learned this
   #week couldn't be implemented. I am a bit disappointed that I couldn't get it to work. I will have to make this more of a learning opportunity on my own time. 
 
 # Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+<<<<<<< HEAD
   #I'm going to refer to my initial solution here and my use of #map. This was the first time I had tried to implemement this outside of a pairing session.
+=======
+  #I'm going to refer to my initial solution here and my use of #map. This was the first time I had tried to implement this outside of a pairing session.
+>>>>>>> master
   #I was hoping it would run the block I gave it for each element in the array specified. The method did not work in this situation though. 
 
 # How did you determine what should be an instance variable versus a local variable?

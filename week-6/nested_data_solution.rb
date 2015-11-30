@@ -52,9 +52,11 @@ p old
 #startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 
 #destructive
-#new_names = startup_names.dup.flatten.map {|name| print name + 'ly, '}
+#nstartup_names.dup.flatten!.map! {|name| print name + 'ly, '}
 
 #non-destructive
+
+#new_names = startup_names.dup.flatten.map {|name| print name + 'ly, '}
 
 # name
 # name2

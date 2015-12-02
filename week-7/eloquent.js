@@ -6,6 +6,10 @@
 // Write your own variable and do something to it.
 
 
+var earnings = 400;
+    earnings = earnings -300;
+    console.log (earnings);
+
 
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board

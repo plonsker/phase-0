@@ -2,7 +2,7 @@
 
 // I paired [with Joe Plonsker, Rueben Brandt, Chris Shahin, Luis De Castro, Lindsey Stevenson] on this challenge.
 
-// This challenge took us [#] hours.
+// This challenge took us 1 hour.
 
 
 // Bulk Up
@@ -100,3 +100,15 @@ console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
 
 // Reflection
+
+// What JavaScript knowledge did you solidify in this challenge?
+
+// Iterating over arrays in JavaScript was a concept that was solidified for me here. It was as if
+// I was unpacking the concepts I had learned in Ruby and was spelling them out explicitly.
+
+// What are constructor functions?
+// Constructor functions are similar to calling new instances of a class in Ruby.
+
+// How are constructors different from Ruby classes (in your research)?
+// The difference here is that I have to explicitly state how this new instance is going to play out,
+// stating every part of it with 'this' and defining it all as a function. 

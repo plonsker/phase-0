@@ -39,3 +39,6 @@ var min = function(num1, num2) {
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+
+var me = {name: "Joe", age: 28, fave_foods:["pizza", "mexican", "sushi"]};
+// → 1

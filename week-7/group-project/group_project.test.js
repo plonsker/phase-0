@@ -3,6 +3,9 @@
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
+//As a user, I need a program that calculates the sum, mean, and median of an array, regardless of
+//length.  
+
 
 oddLengthArray  = [1, 2, 3, 4, 5, 5, 7]
 evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7]

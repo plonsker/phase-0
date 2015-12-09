@@ -146,7 +146,18 @@ console.log(officers);
 // __________________________________________
 // Reflection
 
+// What did you learn about iterating over nested objects in JavaScript?
+// I learned that the earlier similarities I had seen between Ruby and JS were playing themselves
+// out in this exercise. These similar concepts were sorting arrays/hashes and targeting indexed elements.
 
+// Were you able to find useful methods to help you with this?
+// The push method was helpful here. We created a new array and pushed the tallied names into it, then returned
+// the names with the highest tally. Turning things into arrays has been a common theme these past two weeks I think.
+
+// What concepts were solidified in the process of working through this challenge?
+//Objects and their properties/values can be accessed in ways similar to how Ruby hashes are dealt with. Also got to sort with
+// arrays once again. This was a coding concept that took me a bit longer to understand when working on it earlier, so I was glad
+// try it out again.  
 
 
 

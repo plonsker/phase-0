@@ -107,7 +107,7 @@ function average(numbers) {
 // Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 // Not necessarily any methods but we attempted to be clever and take out the first property of names from the list and
 // replace them with an initialize method. We agreed that the concept seemed viable but we could not get it to work. Not to
-// worry though as things still worked out in our refactored version.
+// worry though as the program itself remained operational. 
 
 
 

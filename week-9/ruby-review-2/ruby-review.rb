@@ -228,3 +228,17 @@ frogs.currently_in_phase(student)
 
 
 # Reflection
+# What concepts did you review in this challenge?
+# I reviewed classes and creating new instances of classes. Also reviewied inheritance,
+# which I had read about a while ago but was a bit fuzzy on. I had forgotten I could have methods
+# of the same name in each class and have one override the other. I did this by having two different
+# methods related to listervs of the same name in each class, and the LocalCohort one overrode the GlobalCohort
+# method. Eventually I brought the fun to the end and put the studens on two listervs, one for the whole cohort
+# and one just for NYC. 
+
+# What is still confusing to you about Ruby?
+# Probably accessors, which I did not use here but thought about them. 
+
+# What are you going to study to get more prepared for Phase 1?
+#Read up on the different ways classes can swap info back and forth to each other beyond inheritance, since
+#inheritance is mostly a one-way street here. 

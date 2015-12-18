@@ -24,6 +24,7 @@
 
 
 // JS attempt
+
 var sentence = 'how do you do fellow kids'
 sentence.split('').reverse().join('').split(' ').reverse().join(' ');
 

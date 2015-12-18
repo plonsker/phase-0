@@ -39,7 +39,6 @@
 # simply return the array to the console
 
 
-# Initial Solution
 class Song
   attr_accessor :song_title
   attr_accessor :artist
@@ -105,7 +104,6 @@ class Playlist
 end
 
 
-# Refactored Solution
 
 
 
